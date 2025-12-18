@@ -23,7 +23,7 @@
     },
     "device_type": {
       "type": "string",
-      "enum": ["tv", "soundbar", "av_receiver", "cable_box", "streaming", "projector"],
+      "enum": ["tv", "soundbar", "av_receiver", "cable_box", "streaming", "projector", "blu_ray", "gaming", "fan", "ac", "lighting"],
       "description": "Type of device"
     },
     "model": {

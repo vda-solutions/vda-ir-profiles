@@ -47,6 +47,11 @@ Each profile is a JSON file with the following structure:
 - `cable_box` - Cable boxes, satellite receivers, DVRs
 - `streaming` - Streaming devices (Apple TV, Fire TV, Roku, etc.)
 - `projector` - Projectors
+- `blu_ray` - Blu-ray and DVD players
+- `gaming` - Game consoles with IR support
+- `fan` - Ceiling fans, tower fans, portable fans
+- `ac` - Air conditioners and HVAC units
+- `lighting` - LED controllers and smart lighting
 
 ### Common Protocols
 
@@ -59,16 +64,27 @@ Each profile is a JSON file with the following structure:
 ## Directory Structure
 
 ```
-profiles/
-├── tv/
+vda-ir-profiles/
+├── tv/                  # Televisions
 │   ├── samsung/
 │   ├── lg/
 │   ├── sony/
 │   └── ...
-├── soundbar/
-├── av_receiver/
-├── cable_box/
-└── streaming/
+├── soundbar/            # Sound bars
+├── av_receiver/         # AV receivers & amplifiers
+│   └── pioneer/
+├── cable_box/           # Cable/satellite boxes
+│   └── directv/
+├── streaming/           # Streaming devices
+│   ├── roku/
+│   ├── amazon/
+│   └── apple/
+├── projector/           # Projectors
+├── blu_ray/             # Blu-ray/DVD players
+├── gaming/              # Game consoles
+├── fan/                 # Fans (ceiling, tower, etc.)
+├── ac/                  # Air conditioners
+└── lighting/            # LED controllers
 ```
 
 ## License
