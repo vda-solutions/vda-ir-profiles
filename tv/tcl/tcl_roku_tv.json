@@ -1,0 +1,26 @@
+{
+  "profile_id": "tcl_roku_tv",
+  "name": "TCL Roku TV",
+  "manufacturer": "TCL",
+  "device_type": "tv",
+  "protocol": "NEC",
+  "bits": 32,
+  "codes": {
+    "power": "57E3E817",
+    "volume_up": "57E3F807",
+    "volume_down": "57E37887",
+    "mute": "57E3B847",
+    "home": "57E3C03F",
+    "back": "57E36699",
+    "up": "57E39867",
+    "down": "57E3CC33",
+    "left": "57E37C83",
+    "right": "57E3BC43",
+    "enter": "57E354AB",
+    "replay": "57E31CE3",
+    "options": "57E36C93",
+    "rewind": "57E32CD3",
+    "play_pause": "57E3AC53",
+    "fast_forward": "57E3EC13"
+  }
+}

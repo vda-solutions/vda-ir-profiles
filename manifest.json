@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "updated": "2024-12-18",
+  "description": "Community IR profiles for VDA IR Control",
+  "profiles": [
+    "tv/samsung/samsung_tv_generic.json",
+    "tv/lg/lg_tv_generic.json",
+    "tv/sony/sony_tv_generic.json",
+    "tv/vizio/vizio_tv_generic.json",
+    "tv/tcl/tcl_roku_tv.json",
+    "tv/hisense/hisense_tv_generic.json",
+    "soundbar/samsung/samsung_soundbar.json",
+    "soundbar/vizio/vizio_soundbar.json",
+    "soundbar/sony/sony_soundbar.json",
+    "av_receiver/pioneer/pioneer_avr_generic.json",
+    "av_receiver/pioneer/pioneer_elite_avr.json",
+    "cable_box/directv/directv_receiver.json",
+    "streaming/apple/apple_tv_4k.json",
+    "streaming/apple/apple_tv.json",
+    "streaming/amazon/amazon_firetv.json",
+    "streaming/roku/roku_streaming.json"
+  ]
+}

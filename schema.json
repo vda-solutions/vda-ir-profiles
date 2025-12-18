@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/vda-solutions/vda-ir-profiles/schema.json",
+  "title": "VDA IR Profile",
+  "description": "Schema for VDA IR Control device profiles",
+  "type": "object",
+  "required": ["profile_id", "name", "manufacturer", "device_type", "codes"],
+  "properties": {
+    "profile_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$",
+      "description": "Unique identifier (lowercase alphanumeric with underscores)"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Human-readable display name"
+    },
+    "manufacturer": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Device manufacturer/brand"
+    },
+    "device_type": {
+      "type": "string",
+      "enum": ["tv", "soundbar", "av_receiver", "cable_box", "streaming", "projector"],
+      "description": "Type of device"
+    },
+    "model": {
+      "type": "string",
+      "description": "Specific model number(s)"
+    },
+    "protocol": {
+      "type": "string",
+      "description": "IR protocol (NEC, SAMSUNG, SONY, PIONEER, RC5, RC6, raw, etc.)"
+    },
+    "bits": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 128,
+      "description": "Protocol bit length"
+    },
+    "codes": {
+      "type": "object",
+      "description": "Command name to IR code mapping",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "minProperties": 1
+    }
+  },
+  "additionalProperties": false
+}

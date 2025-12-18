@@ -1,0 +1,15 @@
+{
+  "profile_id": "samsung_soundbar",
+  "name": "Samsung Soundbar",
+  "manufacturer": "Samsung",
+  "device_type": "soundbar",
+  "protocol": "SAMSUNG",
+  "bits": 32,
+  "codes": {
+    "power": "E0E040BF",
+    "volume_up": "E0E0E01F",
+    "volume_down": "E0E0D02F",
+    "mute": "E0E0F00F",
+    "source": "E0E0807F"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "profile_id": "sony_soundbar",
+  "name": "Sony Soundbar",
+  "manufacturer": "Sony",
+  "device_type": "soundbar",
+  "protocol": "SONY",
+  "bits": 15,
+  "codes": {
+    "power": "540C",
+    "volume_up": "240C",
+    "volume_down": "640C",
+    "mute": "140C",
+    "input": "220C"
+  }
+}

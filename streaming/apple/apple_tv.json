@@ -1,0 +1,17 @@
+{
+  "profile_id": "apple_tv",
+  "name": "Apple TV (Silver Remote)",
+  "manufacturer": "Apple",
+  "device_type": "streaming",
+  "protocol": "NEC",
+  "bits": 32,
+  "codes": {
+    "menu": "77E15080",
+    "up": "77E15020",
+    "down": "77E130D0",
+    "left": "77E11090",
+    "right": "77E16010",
+    "select": "77E13A20",
+    "play_pause": "77E1FA20"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "profile_id": "apple_tv_4k",
+  "name": "Apple TV 4K",
+  "manufacturer": "Apple",
+  "device_type": "streaming",
+  "protocol": "NEC",
+  "bits": 32,
+  "codes": {
+    "up": "E5FE03FC",
+    "down": "E5FE04FB",
+    "left": "E5FE05FA",
+    "right": "E5FE06F9",
+    "select": "E5FE07F8",
+    "menu": "E5FE01FE",
+    "home": "E5FE20DF",
+    "play_pause": "E5FE0CF3",
+    "play": "E5FE0AF5",
+    "pause": "E5FE0BF4",
+    "power_on": "E5FE15EA",
+    "power_off": "E5FE16E9"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "profile_id": "vizio_soundbar",
+  "name": "Vizio Soundbar",
+  "manufacturer": "Vizio",
+  "device_type": "soundbar",
+  "protocol": "NEC",
+  "bits": 32,
+  "codes": {
+    "power": "D7280DF2",
+    "volume_up": "D728ED12",
+    "volume_down": "D7286D92",
+    "mute": "D7287D82",
+    "input": "D728FD02",
+    "bluetooth": "D7285DA2"
+  }
+}
