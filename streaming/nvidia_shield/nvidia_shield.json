@@ -1,0 +1,30 @@
+{
+  "profile_id": "nvidia_shield",
+  "name": "Nvidia Shield TV",
+  "manufacturer": "Nvidia",
+  "device_type": "streaming",
+  "model": "Shield TV and Shield TV Pro",
+  "protocol": "NEC",
+  "bits": 32,
+  "codes": {
+    "power": "04FB48B7",
+    "power_on": "04FB08F7",
+    "power_off": "04FB8877",
+    "home": "04FB38C7",
+    "back": "04FB28D7",
+    "up": "04FB50AF",
+    "down": "04FBD02F",
+    "left": "04FB7887",
+    "right": "04FBF807",
+    "ok": "04FB30CF",
+    "menu": "04FBB847",
+    "play_pause": "04FBA857",
+    "rewind": "04FB6897",
+    "fast_forward": "04FB18E7",
+    "volume_up": "04FB708F",
+    "volume_down": "04FBF00F",
+    "mute": "04FBE817",
+    "netflix": "04FB12ED",
+    "settings": "04FBB04F"
+  }
+}
