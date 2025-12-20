@@ -7,14 +7,12 @@
   "protocol": "NEC",
   "bits": 32,
   "codes": {
-    "up": "77E1D020",
-    "down": "77E1B030",
+    "up": "77E15020",
+    "down": "77E130D0",
     "left": "77E11090",
-    "right": "77E1E010",
-    "select": "77E1BA20",
-    "menu": "77E140BF",
-    "play_pause": "77E17A20",
-    "play": "77E1FA20",
-    "pause": "77E17A20"
+    "right": "77E16010",
+    "select": "77E13A20",
+    "menu": "77E1C030",
+    "play_pause": "77E1FA20"
   }
 }
