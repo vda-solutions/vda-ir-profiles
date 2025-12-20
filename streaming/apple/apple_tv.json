@@ -12,7 +12,8 @@
     "left": "77E11090",
     "right": "77E16010",
     "select": "77E13A20",
-    "menu": "77E10287",
+    "menu": "77E102FD",
+    "back": "77E102FD",
     "play_pause": "77E1FA20"
   }
 }
