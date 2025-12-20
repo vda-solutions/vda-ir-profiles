@@ -4,7 +4,7 @@
   "manufacturer": "Pioneer",
   "device_type": "av_receiver",
   "protocol": "PIONEER",
-  "bits": 64,
+  "bits": 32,
   "codes": {
     "power": "A55A38C7",
     "power_on": "A55A39C6",
