@@ -1,17 +1,20 @@
 {
   "profile_id": "apple_tv",
-  "name": "Apple TV (Silver Remote)",
+  "name": "Apple TV (Aluminum Remote)",
   "manufacturer": "Apple",
   "device_type": "streaming",
+  "model": "Apple TV 2nd/3rd Gen with aluminum remote",
   "protocol": "NEC",
   "bits": 32,
   "codes": {
-    "menu": "77E15080",
-    "up": "77E15020",
-    "down": "77E130D0",
+    "up": "77E1D020",
+    "down": "77E1B030",
     "left": "77E11090",
-    "right": "77E16010",
-    "select": "77E13A20",
-    "play_pause": "77E1FA20"
+    "right": "77E1E010",
+    "select": "77E1BA20",
+    "menu": "77E140BF",
+    "play_pause": "77E17A20",
+    "play": "77E1FA20",
+    "pause": "77E17A20"
   }
 }
