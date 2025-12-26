@@ -4,7 +4,7 @@
   "manufacturer": "Pioneer",
   "device_type": "av_receiver",
   "model": "VSX-LX505, VSX-LX305, SC-LX series (XXD3105 remote)",
-  "protocol": "NEC",
+  "protocol": "pioneer",
   "bits": 32,
   "codes": {
     "power": "A55A38C7",
