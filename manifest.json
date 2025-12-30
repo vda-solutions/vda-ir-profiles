@@ -1,6 +1,6 @@
 {
-  "version": "1.1.0",
-  "updated": "2024-12-20",
+  "version": "1.2.0",
+  "updated": "2024-12-30",
   "description": "Community IR profiles for VDA IR Control",
   "profiles": [
     "tv/samsung/samsung_tv_generic.json",
@@ -26,6 +26,7 @@
     "av_receiver/sony/sony_avr.json",
     "cable_box/directv/directv_receiver.json",
     "cable_box/directv/directv_hd.json",
+    "cable_box/directv/directv_rc66rx_raw.json",
     "cable_box/dish_network/hopper.json",
     "cable_box/fios/verizon_fios.json",
     "cable_box/motorola/dct_series.json",
