@@ -6,7 +6,8 @@
   "model": "Altice One, Altice One Mini",
   "protocol": "NEC",
   "bits": 32,
-  "notes": "Altice One boxes. For older Optimum boxes, use Scientific Atlanta profile.",
+  "frequency": 56000,
+  "notes": "Altice One boxes with T4HU1616 remote. Requires 56kHz carrier.",
   "codes": {
     "power": "BD4226D9",
     "channel_up": "BD4206F9",
