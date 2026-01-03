@@ -6,7 +6,8 @@
   "model": "SMT-H3050, SMT-H3090, SMT-H3272",
   "protocol": "NEC",
   "bits": 32,
-  "notes": "Used by AT&T U-verse, some cable providers",
+  "frequency": 56000,
+  "notes": "Used by AT&T U-verse, some cable providers. Requires 56kHz carrier.",
   "codes": {
     "power": "E0E040BF",
     "channel_up": "E0E048B7",
