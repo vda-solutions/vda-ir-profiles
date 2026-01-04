@@ -1,6 +1,6 @@
 {
-  "version": "1.2.0",
-  "updated": "2024-12-30",
+  "version": "1.3.0",
+  "updated": "2025-01-04",
   "description": "Community IR profiles for VDA IR Control",
   "profiles": [
     "tv/samsung/samsung_tv_generic.json",
@@ -14,6 +14,7 @@
     "tv/sharp/sharp_tv.json",
     "tv/toshiba/toshiba_tv.json",
     "projector/epson/epson_projector.json",
+    "projector_screen/elite_screens.json",
     "soundbar/samsung/samsung_soundbar.json",
     "soundbar/vizio/vizio_soundbar.json",
     "soundbar/sony/sony_soundbar.json",
