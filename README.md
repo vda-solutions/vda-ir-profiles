@@ -47,6 +47,7 @@ Each profile is a JSON file with the following structure:
 - `cable_box` - Cable boxes, satellite receivers, DVRs
 - `streaming` - Streaming devices (Apple TV, Fire TV, Roku, etc.)
 - `projector` - Projectors
+- `projector_screen` - Motorized projector screens (up/down/stop)
 - `blu_ray` - Blu-ray and DVD players
 - `gaming` - Game consoles with IR support
 - `fan` - Ceiling fans, tower fans, portable fans
@@ -80,6 +81,8 @@ vda-ir-profiles/
 │   ├── amazon/
 │   └── apple/
 ├── projector/           # Projectors
+├── projector_screen/    # Motorized projector screens
+│   └── elite_screens/
 ├── blu_ray/             # Blu-ray/DVD players
 ├── gaming/              # Game consoles
 ├── fan/                 # Fans (ceiling, tower, etc.)
