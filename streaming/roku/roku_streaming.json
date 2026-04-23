@@ -1,0 +1,23 @@
+{
+  "profile_id": "roku_streaming",
+  "name": "Roku Streaming Device",
+  "manufacturer": "Roku",
+  "device_type": "streaming",
+  "protocol": "NEC",
+  "bits": 32,
+  "codes": {
+    "power": "57E3E817",
+    "home": "57E3C03F",
+    "back": "57E36699",
+    "up": "57E39867",
+    "down": "57E3CC33",
+    "left": "57E37C83",
+    "right": "57E3BC43",
+    "select": "57E354AB",
+    "replay": "57E31CE3",
+    "options": "57E36C93",
+    "rewind": "57E32CD3",
+    "play_pause": "57E3AC53",
+    "fast_forward": "57E3EC13"
+  }
+}

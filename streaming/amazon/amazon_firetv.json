@@ -1,0 +1,22 @@
+{
+  "profile_id": "amazon_firetv",
+  "name": "Amazon Fire TV",
+  "manufacturer": "Amazon",
+  "device_type": "streaming",
+  "protocol": "NEC",
+  "bits": 32,
+  "codes": {
+    "power": "00FF00FF",
+    "home": "00FF50AF",
+    "back": "00FF40BF",
+    "menu": "00FF906F",
+    "up": "00FF20DF",
+    "down": "00FF10EF",
+    "left": "00FF807F",
+    "right": "00FFC03F",
+    "select": "00FFA05F",
+    "play_pause": "00FF609F",
+    "rewind": "00FFC837",
+    "fast_forward": "00FF28D7"
+  }
+}
